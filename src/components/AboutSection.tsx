@@ -4,6 +4,8 @@ import { Target, Eye, Award, MapPin } from 'lucide-react';
 import campusBgImage from '../assets/images/kssem_campus_real_1788194089427.jpg';
 import pygenarcBrandImage from '../assets/images/WhatsApp Image 2026-09-09 at 9.58.19 PM.jpeg';
 import hodimage from '../assets/images/hod.jpeg';
+import labimage from '../assets/images/lab.jpeg';
+
 export const AboutSection: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'college' | 'ksgi' | 'dept' | 'vision' | 'campus'>('college');
 
@@ -229,7 +231,7 @@ export const AboutSection: React.FC = () => {
                 </div>
 
                 <div className="group relative rounded-xl overflow-hidden border border-slate-700 h-48">
-                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaJg_3wUYTxbkPbbh3BIFttd3kSLY1iW0JUlCDJGi3Y-3rEMNmXQv2vsU&s=10" alt="Dining Hall" referrerPolicy="no-referrer" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                  <img src={labimage} alt="Dining Hall" referrerPolicy="no-referrer" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent p-4 flex flex-col justify-end">
                     <span className="font-bold text-white text-sm">Hi-Tech Computer Laboratory</span>
                     <span className="text-xs text-emerald-300">A state-of-the-art computer facility equipped with high-performance systems and modern infrastructure designed to support hands-on learning and practical workshops.</span>
