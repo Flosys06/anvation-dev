@@ -82,7 +82,7 @@ export const AboutSection: React.FC = () => {
                   Education has evolved, but institutions still struggle with scattered systems and manual workloads. PyGenicArc integrates AI, Cloud, and Virtual Labs into one harmonized ecosystem, eliminating hardware limits and making accreditation audit-ready.
                 </p>
               </div>
-              <div className="relative rounded-2xl overflow-hidden border border-cyan-500/30 shadow-2xl bg-slate-950/70 p-8 text-center">
+              <div>
                 <img
                   src={pygenarcBrandImage}
                   alt="PyGenicArc - AI, Cloud, and Virtual Labs"
